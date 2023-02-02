@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "dev": "nodemon index.ts"
+    "dev": "nodemon --esm index.ts"
   },
+  "type": "module",
   "author": "",
   "license": "ISC",
   "devDependencies": {
