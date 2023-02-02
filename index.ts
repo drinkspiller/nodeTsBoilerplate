@@ -4,7 +4,6 @@ class HelloWorld {
 
   speak() {
     console.log(`HelloWorld says: ${this.message}`);
-
   }
 }
 
